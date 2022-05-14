@@ -2,7 +2,7 @@ package tk.p4rty;
 
 import java.util.ArrayList;
 
-public class Utils {
+public static abstract class Utils {
 
     public static Character[][] convertToBoard(String stringBoard, int sideLength) {
         Character[][] board = new Character[sideLength][sideLength];

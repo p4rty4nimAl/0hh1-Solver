@@ -27,7 +27,7 @@ public class Main {
             case 3:
                 break;
         }
-        Character[][] unsolvedBoard = convertToBoard(board, getBoardSize(board));
+        Board unsolvedBoard = new Board(convertToBoard(board, getBoardSize(board)), getBoardSize(board));
         System.out.println(Arrays.deepToString(unsolvedBoard));
     }
 }
